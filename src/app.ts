@@ -7,12 +7,12 @@ import {configurePassport} from './config/auth/configure-passport';
 import {configureCors} from './config/auth/configure-cors';
 import {connectToDatabase} from './config/database/connect-to-database';
 import {loggerConfig} from './config/logger/logger-config';
-import {UserModel} from './services/users/models/User';
-import {UsersRouter} from './services/users/routes';
+import {UserModel} from './components/users/models/User';
+import {UsersRouter} from './components/users/routes';
 // eslint-disable-next-line max-len
-import {RegistrationRouter} from './services/users/services/registration/routes';
-import {PasswordResetRouter} from './services/users/services/password/routes';
-import {ProfileRouter} from './services/users/services/profile/routes';
+import {RegistrationRouter} from './components/users/components/registration/routes';
+import {PasswordResetRouter} from './components/users/components/password/routes';
+import {ProfileRouter} from './components/users/components/profile/routes';
 
 const logger = loggerConfig();
 
