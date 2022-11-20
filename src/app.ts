@@ -11,6 +11,7 @@ import {UserModel} from './components/users/models/User';
 import {UsersRouter} from './components/users/routes';
 // eslint-disable-next-line max-len
 import {RegistrationRouter} from './components/users/components/registration/routes';
+// eslint-disable-next-line max-len
 import {PasswordResetRouter} from './components/users/components/password/routes';
 import {ProfileRouter} from './components/users/components/profile/routes';
 
