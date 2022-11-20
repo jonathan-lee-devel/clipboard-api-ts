@@ -22,7 +22,7 @@
     "url": "git+https://github.com/jonathan-lee-devel/clipboard-api.git"
   },
   "keywords": [
-    "split"
+    "clipboard"
   ],
   "author": "Jonathan Lee <jonathan.lee.devel@gmail.com>",
   "license": "GPL-3.0-or-later",
